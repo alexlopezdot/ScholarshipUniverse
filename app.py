@@ -9,7 +9,7 @@ from routes.home_pages import homePages
 from flask import Flask
 
 app = Flask(__name__)
-app.secret_key = 'z0muTcSuiHUhNYxawAdzY1xHqw44vEo3'
+
 
 app.register_blueprint(main)
 app.register_blueprint(homePages)
